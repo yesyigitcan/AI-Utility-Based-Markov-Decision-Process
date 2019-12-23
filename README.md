@@ -3,7 +3,7 @@ By using of utility approach for path finding in AI, the script prints the optim
 
 
 
-| is wall, . is empty space, +1 positive reward and -1 negative reward
+WALL is wall (you can type any word less than 10 length instead of |), . is empty space, +1 positive reward and -1 negative reward
 
 
 
