@@ -71,7 +71,7 @@ class UtilityMap:
                     utility_matrix = self.getUtilityMatrix(i, j)
                     max_index = utility_matrix.index(max(utility_matrix))
                     self.map[i][j] = utility_arrows[max_index]
-                    self.utility[i][j] = utility_matrix[max_index] + self.rs
+                    self.utility[i][j] = utility_matrix[max_index] + self.alpha * self.rs
         return self.map
 
     def printArrowMap(self):
