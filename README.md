@@ -1,7 +1,11 @@
 # AI-Utility-Based-Markov-Decision-Process
 By using of utility approach for path finding in AI, the script prints the optimal states to follow with arrows UP, DOWN, RIGHT or LEFT.
 
+
+
 | is wall, . is empty space, +1 positive reward and -1 negative reward
+
+
 
 Map Matrix
 
@@ -17,9 +21,15 @@ Map Matrix
             
 ]
 
+
+
+
 getUtilityCalculatedMap()
 
 Output is like for given map matrix
+
+
+
 
 
 printArrowMap()
@@ -31,6 +41,10 @@ RIGHT RIGHT UP UP -1
 UP | UP UP DOWN 
 
 UP RIGHT UP UP DOWN 
+
+
+
+
 
 printUtilityMap()
 
