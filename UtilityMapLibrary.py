@@ -77,13 +77,20 @@ class UtilityMap:
     def printArrowMap(self):
         for i in range(self.rowlen):
             for j in range(self.collen):
-                print(self.map[i][j], end=" ")
+                word_len = len(self.map[i][j])
+                print(self.map[i][j], end="")
+                for k in range(10 - word_len):
+                    print("",end=" ")
             print("")
 
     def printUtilityMap(self):
         for i in range(self.rowlen):
             for j in range(self.collen):
-                print("{0:.4f}".format(self.utility[i][j]), end=" ")
+                print("{0:.4f}".format(self.utility[i][j]), end="")
+                if self.utility[i][j] < 0:
+                    print("", end="   ")
+                else:
+                    print("", end="    ")
             print("")
 
 
