@@ -55,3 +55,8 @@ printUtilityMap()
 0.2301 0.0000 0.3955 0.3558 -0.0300 
 
 0.1760 0.2193 0.3116 0.2516 -0.0300 
+
+
+## Map Trip
+
+Map trip is just a console simulation of moving agent without learning to see the time of travel depending on full randomness
